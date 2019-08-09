@@ -6,6 +6,8 @@
 
 ### Angular e2e testing with Typescript integration using npm. Supports reporting to view test results in browser.
 
+![Screenshot](https://i.imgur.com/x7kXuKa.png)
+
 ### Global Prerequisites
 *   Node
 *   Protractor
