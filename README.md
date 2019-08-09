@@ -1,6 +1,6 @@
 # Veggy
 
-## Angular e2e test reporting
+## Angular ts e2e test reporting
 
 * * *
 
