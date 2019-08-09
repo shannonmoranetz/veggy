@@ -1,0 +1,82 @@
+[
+  {
+    "description": "  As a developer using Angular\n  I need to look-up classes and guidelines\n  So that I can concentrate on building awesome applications",
+    "keyword": "Feature",
+    "name": "Search",
+    "line": 1,
+    "id": "search",
+    "tags": [],
+    "uri": "e2e/features/search.feature",
+    "elements": [
+      {
+        "id": "search;type-in-a-search-term",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Type in a search-term",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e/steps/search.steps.ts:8"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the angular.io site",
+            "match": {
+              "location": "e2e/steps/search.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 896000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I type \"foo\" into the search input field",
+            "match": {
+              "location": "e2e/steps/search.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1668000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see some results in the search overlay",
+            "match": {
+              "location": "e2e/steps/search.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4378000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
